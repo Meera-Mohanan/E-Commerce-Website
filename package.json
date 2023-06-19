@@ -25,7 +25,7 @@
     "dottie": "^2.0.6",
     "emoji-regex": "^8.0.0",
     "escape-string-regexp": "^1.0.5",
-    "Express": "^3.0.1",
+    "express": "^4.18.2",
     "external-editor": "^3.1.0",
     "figures": "^3.2.0",
     "generate-function": "^2.3.1",
@@ -84,10 +84,10 @@
     "wrap-ansi": "^7.0.0",
     "yallist": "^4.0.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/category-seeds.js && node seeds/index.js && node seeds/product-seeds.js && node seeds/product-tag-seeds.js && node seeds/tag-seeds.js"
   },
   "repository": {
     "type": "git",
@@ -98,12 +98,5 @@
   "bugs": {
     "url": "https://github.com/Meera-Mohanan/E-Commerce-Website/issues"
   },
-  "homepage": "https://github.com/Meera-Mohanan/E-Commerce-Website#readme",
-  "dependencies": {
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mysql2": "^3.3.1",
-    "sequelize": "^6.31.1"
-  }
-}
+  "homepage": "https://github.com/Meera-Mohanan/E-Commerce-Website#readme"
 }
