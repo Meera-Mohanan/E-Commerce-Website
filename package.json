@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "Express": "^3.0.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.4.0",
+    "sequelize": "^6.32.1"
+  },
+  "name": "e-commerce-website",
+  "description": "Back end for an e-commerce site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meera-Mohanan/E-Commerce-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meera-Mohanan/E-Commerce-Website/issues"
+  },
+  "homepage": "https://github.com/Meera-Mohanan/E-Commerce-Website#readme"
+}
