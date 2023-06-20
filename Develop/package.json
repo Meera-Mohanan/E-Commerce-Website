@@ -1,21 +1,5 @@
 {
-  "name": "develop",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Meera-Mohanan/E-Commerce-Website.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Meera-Mohanan/E-Commerce-Website/issues"
-  },
-  "homepage": "https://github.com/Meera-Mohanan/E-Commerce-Website#readme"
+  "dependencies": {
+    "mysql2": "^3.4.0"
+  }
 }
