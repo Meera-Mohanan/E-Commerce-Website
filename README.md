@@ -1,10 +1,8 @@
 # E-Commerce-Website
   ![MIT license](https://img.shields.io/badge/license-MIT-blue)
   ## Description 
-  
-  
-Back end for an e-commerce site taking a working Express.js API and configured it to use Sequelize to interact with a MySQL database..
-
+    
+   Back end for an e-commerce site taking a working Express.js API and configured it to use Sequelize to interact with a MySQL database.
 
   ## Table of Contents
   * [installation](#installation)
@@ -33,22 +31,19 @@ Back end for an e-commerce site taking a working Express.js API and configured i
 
   ## Usage
   GIVEN a functional Express.js API
-
-1. WHEN I add my database name, MySQL username, and MySQL password to an environment variable file, THEN I am able to connect to a database using Sequelize
-2. WHEN I enter schema and seed commands, THEN a development database is created and is seeded with test data
-3. WHEN I enter the command to invoke the application THEN my server is started and the Sequelize models are synced to the MySQL database
-4. WHEN I open API GET routes in Insomnia for categories, products, or tags THEN the data for each of these routes is displayed in a formatted JSON
-5. WHEN I test API POST, PUT, and DELETE routes in Insomnia THEN I am able to successfully create, update, and delete data in my database
+    1. WHEN I add my database name, MySQL username, and MySQL password to an environment variable file, THEN I am able to connect to a database using Sequelize
+    2. WHEN I enter schema and seed commands, THEN a development database is created and is seeded with test data
+    3. WHEN I enter the command to invoke the application THEN my server is started and the Sequelize models are synced to the MySQL database
+    4. WHEN I open API GET routes in Insomnia for categories, products, or tags THEN the data for each of these routes is displayed in a formatted JSON
+    5. WHEN I test API POST, PUT, and DELETE routes in Insomnia THEN I am able to successfully create, update, and delete data in my database
 
   ## License
   
 This project is licensed under the MIT
-.
 
   ## Contributing
   
 Email me if you wish to contribute
-
 
   ## Tests
   
@@ -70,7 +65,7 @@ https://drive.google.com/file/d/1J1ZfAguhftGK_aLUnl2J2_pAQi3nxWTr/view
 The walkthrough video demonstrating how to seed the database from the command line and to to start the application’s server..
 https://drive.google.com/file/d/155-61Son0zLzpmq2qsWQHg5FGJhhNT3v/view
 
-The URL of the GitHub repository : https://github.com/Meera-Mohanan/Employee-Tracker
+The URL of the GitHub repository : https://github.com/Meera-Mohanan/E-Commerce-Website
 
   ## Questions
  
