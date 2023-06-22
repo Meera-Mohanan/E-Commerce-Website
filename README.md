@@ -30,7 +30,7 @@
     12. For testing Open insomnia and type http://localhost:3001/ with necessary API routes.
 
   ## Usage
-  GIVEN a functional Express.js API
+        * GIVEN a functional Express.js API
     1. WHEN I add my database name, MySQL username, and MySQL password to an environment variable file, THEN I am able to connect to a database using Sequelize
     2. WHEN I enter schema and seed commands, THEN a development database is created and is seeded with test data
     3. WHEN I enter the command to invoke the application THEN my server is started and the Sequelize models are synced to the MySQL database
